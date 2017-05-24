@@ -1,0 +1,11 @@
+
+public class Main {
+	public static void main(String[] args) {
+		Data data = new Data();		
+		Observer std = new Student(data);	
+		String msg = "Hello";
+		if(!msg.equals("")){			
+			data.setMessage("Hello World");	
+		}
+	}
+}

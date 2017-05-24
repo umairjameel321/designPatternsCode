@@ -1,0 +1,11 @@
+
+import java.util.*;
+public class Data {
+	private ArrayList<Observer> observers;
+	private String message;
+	
+	public Data() {
+		observers = new ArrayList<Observer>();
+	}
+
+}

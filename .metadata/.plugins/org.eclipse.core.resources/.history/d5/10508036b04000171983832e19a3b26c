@@ -1,0 +1,10 @@
+
+public class Student implements Observer {
+	private String message;
+	public void update(String message) {
+		this.message = message;	       
+	}
+	public void display() {		
+	    System.out.println(message);
+	}
+}

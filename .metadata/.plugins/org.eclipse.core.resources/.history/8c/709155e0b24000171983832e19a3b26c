@@ -1,0 +1,34 @@
+
+import java.util.*;
+public class Data {
+	private ArrayList<Observer> observers;
+	private String message;
+	
+	public Data() {
+		observers = new ArrayList<Observer>();
+	}
+	public void registerObserver(Observer o) {
+		observers.add(o);
+	}
+	public void removeObserver(Observer o) {
+		if(observers.indexOf(o) > 0) {
+			observers.remove(o);
+		}		
+	}
+	public void notifyObservers() {
+		for (int i = 0; i < observers.size(); i++) {
+			Observer observer = (Observer)observers.get(i);
+			observer.update(message);
+		}
+	}
+	
+	public void setMessage(String msg) {
+		this.message = msg;		
+		notifyObservers();
+	}
+	
+	public String getMessage() {
+		return this.message;
+	}
+
+}

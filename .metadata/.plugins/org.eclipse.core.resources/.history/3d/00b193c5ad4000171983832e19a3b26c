@@ -1,0 +1,9 @@
+
+public class Observer {
+	public void update(String message) {
+        lastPressure = currentPressure;
+		currentPressure = pressure;
+
+		display();
+	}
+}

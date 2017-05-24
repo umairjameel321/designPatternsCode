@@ -1,0 +1,8 @@
+
+import java.util.*;
+public class Data {
+	private String message;
+	private ArrayList<Observer> observers;
+	
+	
+}

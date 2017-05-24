@@ -1,0 +1,15 @@
+
+public class Student implements Observer {
+	private Data data;
+	private String message;
+	public Student(Data data) {
+		this.data = data;	
+		this.data.registerObserver(this);
+	}
+	public void update(String message) {
+		this.message = message;	       
+	}
+	public void display() {		
+	    System.out.println(message);
+	}
+}
