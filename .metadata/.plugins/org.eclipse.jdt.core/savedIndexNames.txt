@@ -1,15 +1,1 @@
 INDEX VERSION 1.130+D:\youtube videos data\design pattern\codes\.metadata\.plugins\org.eclipse.jdt.core
-3942747217.index
-3563579007.index
-710365281.index
-845661756.index
-4274890902.index
-3357822389.index
-3831923523.index
-2990805955.index
-2407343740.index
-3453010601.index
-2959744029.index
-20454345.index
-1840407994.index
-3891995667.index
